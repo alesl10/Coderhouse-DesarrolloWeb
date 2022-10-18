@@ -1,0 +1,51 @@
+@import 'base/_estilosgenerales.scss';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/contacts';
+@import 'components/inicio';
+@import 'components/products';
+@import 'components/register';
+@import 'components/wholesaler';
+
+.articulo{
+    padding: 10px;
+       }
+
+/* transformaciones */
+.articulo:hover {
+    transform: scale(1.1);
+    transition: all, 2s;
+    z-index: 10000;
+}
+
+.menu-nav li:hover {
+    background-color: rgb(144, 220, 243);
+}
+
+/* media query */
+@media screen and (max-width: 768px) {
+    body h1 {
+        font-size: 1.5rem;
+    }
+
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    h5 {
+        font-size: 1rem
+    }
+
+    .caract-img {
+        display: none;
+    }
+
+    .wp-footer {
+        display: none;
+    }
+}
