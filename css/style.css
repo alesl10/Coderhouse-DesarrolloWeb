@@ -1,6 +1,9 @@
 body {
   background-color: #DFF6FF;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 img {
@@ -13,10 +16,10 @@ h1, h2, h3, h4, h5 {
 
 header {
   width: 100%;
-  height: 200px;
+  height: 7.2rem;
 }
 header .bg-color {
-  background-color: #47B5FF;
+  background-color: #99d4fc;
 }
 header .bg-color div .logo {
   width: 100%;
@@ -26,18 +29,20 @@ header .bg-color div div .search-btn {
   display: flex;
 }
 header .bg-color div div .search-btn .button-color {
-  color: #47B5FF;
+  color: #99d4fc;
   background-color: #06283D;
 }
 
 footer {
+  width: 100%;
   bottom: 0px;
   background-color: white;
+  margin-top: auto;
 }
 footer .footer-nav {
   width: 100%;
   height: 200px;
-  background-color: #47B5FF;
+  background-color: #99d4fc;
 }
 footer .footer-nav .footer-text {
   text-align: center;
@@ -85,6 +90,11 @@ div .mapa {
 div .mapa iframe {
   max-width: 100%;
   max-height: 50%;
+}
+
+.carousel {
+  margin: 0px auto;
+  width: 100%;
 }
 
 .caracteristicas-principales .Titulo-principal {
@@ -138,9 +148,12 @@ div .mapa iframe {
 }
 .section-productos div .menu-productos ul li {
   border: solid 1px #06283D;
-  background-color: #47B5FF;
+  background-color: #99d4fc;
 }
 
+main {
+  height: 100%;
+}
 main .register-form {
   border: solid 3px #06283D;
   text-align: center;
@@ -175,13 +188,6 @@ main .register-title {
 
 .articulo {
   padding: 10px;
-}
-
-/* transformaciones */
-.articulo:hover {
-  transform: scale(1.1);
-  transition: all, 2s;
-  z-index: 10000;
 }
 
 .menu-nav li:hover {

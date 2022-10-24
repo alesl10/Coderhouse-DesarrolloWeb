@@ -11,13 +11,6 @@
     padding: 10px;
        }
 
-/* transformaciones */
-.articulo:hover {
-    transform: scale(1.1);
-    transition: all, 2s;
-    z-index: 10000;
-}
-
 .menu-nav li:hover {
     background-color: rgb(144, 220, 243);
 }
