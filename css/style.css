@@ -10,7 +10,7 @@ img {
   width: 100%;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, p {
   color: #256D85;
 }
 
@@ -23,7 +23,7 @@ header .bg-color {
 }
 header .bg-color div .logo {
   width: 100%;
-  height: 100px;
+  height: 6.25rem;
 }
 header .bg-color div div .search-btn {
   display: flex;
@@ -178,12 +178,34 @@ main .register-title {
   font-size: xx-large;
   font-style: bold;
   text-align: center;
-  color: #06283D;
+  color: #256D85;
 }
 
 .wholesaler-banner {
   border: solid 3px #06283D;
   width: 100%;
+}
+
+.ContenedorMayor {
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.ContenedorMayor .CajaMayor {
+  opacity: 90%;
+  background-color: #DFF6FF;
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  width: 50%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ContenedorMayor .CajaMayor div h2, .ContenedorMayor .CajaMayor div h1, .ContenedorMayor .CajaMayor div p {
+  color: #256D85;
 }
 
 .articulo {
@@ -212,6 +234,14 @@ main .register-title {
     display: none;
   }
   .wp-footer {
+    display: none;
+  }
+  header {
+    height: 10rem;
+  }
+}
+@media screen and (max-width: 570px) {
+  .Desc-Mayor {
     display: none;
   }
 }

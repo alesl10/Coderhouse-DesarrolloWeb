@@ -41,4 +41,15 @@
     .wp-footer {
         display: none;
     }
+
+    header{
+        height: 10rem;
+    }
+}
+
+@media screen and (max-width: 570px) {
+
+.Desc-Mayor{
+    display: none;
+}
 }
