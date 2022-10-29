@@ -34,3 +34,11 @@ width: 100%;
 
     }
 }
+
+.v-line{
+    border-left: solid ;
+    border-color: $color-secundario;
+    height: 20%;
+    left: 50%;
+    position: absolute;
+}

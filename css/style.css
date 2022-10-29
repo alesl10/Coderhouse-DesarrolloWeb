@@ -211,6 +211,14 @@ main div .FAQ {
   color: #256D85;
 }
 
+.v-line {
+  border-left: solid;
+  border-color: #06283D;
+  height: 20%;
+  left: 50%;
+  position: absolute;
+}
+
 .articulo {
   padding: 10px;
 }
