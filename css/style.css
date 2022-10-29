@@ -173,6 +173,9 @@ main .register-title {
   font-style: bold;
   text-align: center;
 }
+main div .FAQ {
+  text-align: center;
+}
 
 .wholesaler-title {
   font-size: xx-large;
