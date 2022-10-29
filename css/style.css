@@ -250,6 +250,9 @@ main div .FAQ {
   header {
     height: 10rem;
   }
+  .v-line {
+    display: none;
+  }
 }
 @media screen and (max-width: 570px) {
   .Desc-Mayor {
